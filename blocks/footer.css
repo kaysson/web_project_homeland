@@ -1,10 +1,27 @@
 .footer {
 color: #FFFFFF;
 text-align: center;
-margin: 24px;
+padding-bottom: 24px;
+margin-top: 92px;
 }
 
 .footer__copyright {
-    width: 166px;
-    margin-left: 556px;
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width:1024px) {
+
+}
+
+@media (max-width:720px) {
+.footer{
+    display: flex;
+    justify-content: center;
+}
+
+   .footer__copyright{
+     max-width: 166px;
+    max-height: 14px;
+}
 }
