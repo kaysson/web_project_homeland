@@ -87,7 +87,7 @@ text-align: left;
 }
  }
 
- @media (max-width:720px) {
+ @media (max-width:544px) {
     .intro {
         max-width: 288px;
         max-height: 878px;
@@ -114,7 +114,7 @@ text-align: left;
 
 }
 
-.intro__text_name {
+.intro__text-name {
  max-width: 288px;
  max-height: 34px;
 font-family: Inter;
@@ -125,7 +125,7 @@ text-align: right;
 
 }
 
-.intro__text_description {
+.intro__text-description {
     max-width: 288px;
     max-height: 442px;
     font-family: Inter;
