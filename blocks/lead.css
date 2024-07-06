@@ -6,6 +6,7 @@ justify-content: center;
 }
 
 .lead__title {
+    margin-bottom: 40px;
 font-family: 'Inter';
 max-width: 720px;
 font-size: 96px;
@@ -42,7 +43,7 @@ width: 100%;
    
     }
     
-@media (max-width:544px) {
+@media (max-width:720px) {
 .lead {
     max-width: unset;
 }
