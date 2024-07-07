@@ -5,7 +5,6 @@ color: #fff;
 
 .place__title {
 max-width: 460px;
-
 font-size: 72px;
 font-weight: 900;
 line-height: 76px;
@@ -20,6 +19,7 @@ text-align: left;
     text-align: left;
     
 }
+
 .place__artist {
     margin-top: 0 auto;
     font-size: 18px;
@@ -28,7 +28,6 @@ text-align: left;
     text-align: left    
     
 }
-
 
 .place__paragraph-button {
 width: Fixed (356.08px)px;
