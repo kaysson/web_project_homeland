@@ -1,0 +1,60 @@
+.places {
+max-width: 984px;
+color: #fff;
+}
+
+.place__title {
+max-width: 460px;
+
+font-size: 72px;
+font-weight: 900;
+line-height: 76px;
+text-align: left;
+}
+
+.place__url-heading {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.52px;
+    letter-spacing: 0.12em;
+    text-align: left;
+    
+}
+.place__artist {
+    margin-top: 0 auto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left    
+    
+}
+
+
+.place__paragraph-button {
+width: Fixed (356.08px)px;
+height: Hug (48px)px;
+top: 3187px;
+left: 148px;
+padding: 13px 20px 13px 20px;
+gap: 10px;
+border-radius: 4px 0px 0px 0px;
+opacity: 0px;
+ background: linear-gradient(90deg, #0278FE 0%, #003A7B 99.98%);
+ font-size: 18px;
+ font-weight: 600;
+ line-height: 21.78px;
+ text-align: left;
+ color: #fff;
+}
+
+.place__paragraph {
+max-width: 484px;
+font-size: 18px;
+font-weight: 400;
+text-align: left;
+}
+
+.place__paragraph-subtitle {
+    max-width: 484px ;
+    margin-top: 25px;
+}
