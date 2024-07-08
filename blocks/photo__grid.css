@@ -1,4 +1,28 @@
 .photo__grid {
-max-width: 1184px;
-margin-top: 118px;
+    max-width: 1184px;
+    margin-top: 118px;
+}
+
+.photo__grid-images {
+    max-width: 284px;
+    width: 100%;
+}
+
+@media (max-width:1024px) {
+  .photo__grid {
+        max-width: 720px;
+        margin-top: 64px;
+  } 
+
+  .photo__grid-images {
+    max-width: 352px;
+  }
+}
+
+@media (max-width:720px) {
+    .photo__grid {
+        max-width: 288px;
+    }
+    
+    
 }
