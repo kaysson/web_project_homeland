@@ -2,7 +2,9 @@
 max-width: 984px;
 color: #fff;
 display: grid;
+grid-area:
 }
+
 
 .place__title {
 max-width: 460px;
@@ -11,6 +13,7 @@ font-weight: 900;
 line-height: 76px;
 text-align: left;
 }
+
 
 .place__url-heading {
     font-size: 12px;
@@ -28,17 +31,19 @@ text-align: left;
     
 }
 
-.place__paragraph-button {
-top: 48px;
-left: 148px;
-padding: 13px 20px 13px 20px;
-gap: 10px;
-border-radius: 4px 0px 0px 0px;
- background: linear-gradient(90deg, #0278FE 0%, #003A7B 99.98%);
- font-size: 18px;
- font-weight: 600;
- line-height: 21.78px;
- color: #fff;
+.place__paragraph-button {  
+    width: Fixed (356.08px)px;
+    height: Hug (48px)px; 
+    top: 3187px;
+    left: 148px;
+    padding: 13px 20px 13px 20px;
+    gap: 10px;
+    border-radius: 4px 0px 0px 0px;
+    background: linear-gradient(90deg, #0278FE 0%, #003A7B 99.98%);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21.78px;
+    color: #fff;
 }
 
 .place__paragraph {
