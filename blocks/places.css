@@ -6,16 +6,3 @@
   margin-top: 92px;
   gap: 80px;
 }
-
-@media (max-width: 1024px) {
-  .places {
-    max-width: 720px;
-    width: 100%;
-  }
-}
-
-@media (max-width: 720px) {
-  .places {
-    display: grid;
-  }
-}

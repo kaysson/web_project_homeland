@@ -1,9 +1,8 @@
 .content {
-    background-color: #2A2C2F;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 0 16px 0;
-  
-  }
+  background-color: #2a2c2f;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* padding: 0 16px 0; */
+}
