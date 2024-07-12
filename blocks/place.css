@@ -61,7 +61,6 @@
   font-size: 18px;
   line-height: 29.34px;
   font-weight: 400;
-  /* text-align: left; */
   margin: 0;
 }
 
@@ -85,26 +84,43 @@
 }
 
 @media (max-width: 1024px) {
+  .place {
+    max-width: 720px;
+  }
   .place__paragraph {
     max-width: 352px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26.08px;
+    text-align: left;
   }
 }
 @media (max-width: 720px) {
+  .place__paragraph {
+    max-width: 288px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26.08px;
+    text-align: left;
+  }
+
   .place__artists {
-    max-width: 352px;
+    max-width: 288px;
   }
 
   .place {
     display: grid;
+    grid-template-columns: 1fr;
+
     grid-template-areas:
-      "title"
-      "artists"
-      "image"
-      "paragraphs"
-      "button "
-      "paragraphs"
-      "."
-      "paragraphs";
+      "title title"
+      "artists artists"
+      "image image"
+      "paragraphs paragraphs"
+      "button buton"
+      "paragraphs paragraphs "
+      ". ."
+      "paragraphs paragraphs";
     max-width: 320px;
   }
 
