@@ -15,7 +15,7 @@
   .photo {
     max-width: 720px;
     margin-top: 64px;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 340px);
   }
 
   .photo__grid-image {
@@ -25,11 +25,17 @@
 
 @media (max-width: 720px) {
   .photo {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(2, 284px);
     gap: 12px;
   }
 
   .photo__grid-image {
     max-width: 288px;
+  }
+}
+
+@media (max-width: 688px) {
+  .photo {
+    grid-template-columns: 288px;
   }
 }

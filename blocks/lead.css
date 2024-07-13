@@ -1,67 +1,69 @@
 .lead {
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .lead__title {
-    margin-bottom: 40px;
-font-family: 'Inter';
-max-width: 720px;
-font-size: 96px;
-font-weight: 900;
-line-height: 100px;
-text-align: center;
-color: #FFFFFF;
+  margin-bottom: 40px;
+  font-family: "Inter";
+  max-width: 720px;
+  font-size: 96px;
+  font-weight: 900;
+  line-height: 100px;
+  text-align: center;
+  color: #ffffff;
 }
 
 .lead__subtitle {
-font-family: 'Inter';
-max-width: 720px;
-font-size: 30px;
-font-weight: 400;
-line-height: 36px;
-text-align: center;
-color: #FFFFFF;
+  font-family: "Inter";
+  max-width: 720px;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: center;
+  color: #ffffff;
 }
 
 .lead__image {
-max-width: 984px;
-width: 100%;
+  max-width: 984px;
+  width: 100%;
 }
 
-@media (max-width:1024px) {
-    .lead__title {
-        max-width: 530px;
-        max-height: 158px;
-        font-size: 75px;
-        font-weight: 900;
-        line-height: 79px;
-        text-align: center;
-    }
-   
-    }
-    
-@media (max-width:720px) {
-.lead {
-    max-width: unset;
+@media (max-width: 1024px) {
+  .lead__title {
+    max-width: 530px;
+    max-height: 158px;
+    font-size: 75px;
+    font-weight: 900;
+    line-height: 79px;
+    text-align: center;
+  }
 }
-.lead__title {
+
+@media (max-width: 720px) {
+  .lead {
+    max-width: unset;
+  }
+  .lead__title {
     max-width: 228px;
     max-height: 88px;
     font-size: 40px;
     font-weight: 900;
     line-height: 44px;
     text-align: center;
-}
-.lead__subtitle {
-font-size: 16px;
-font-weight: 400;
-line-height: 20px;
-text-align: center;
-max-width: 288px;
-max-height: 40px;
-}
+  }
+  .lead__subtitle {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+    max-width: 288px;
+    max-height: 40px;
+  }
 
+  .lead__image {
+    max-width: 320px;
+  }
 }
